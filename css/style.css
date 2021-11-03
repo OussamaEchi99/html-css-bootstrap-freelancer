@@ -13,6 +13,18 @@ ul{
     color: #333333;
 }
 
+.backgrond_white{
+    background-color: white;
+}
+
+.backgrond_black{
+    background-color: #333333;
+}
+
+.backgrond_green{
+    background-color: #1abc9c;;
+}
+
 .green{
     color: #1abc9c;
 }
@@ -34,6 +46,39 @@ a{
     text-align: left;
 }
 
+.line_star{
+    width: 16%;
+    height: 3px;
+}
+
+.star{
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.star_effect{
+    margin: 20px 0;
+}
+
+.btn{
+    margin: 15px 0;
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+
+.download-btn{
+    color: white;
+    border: 1px solid white;
+}
+
+.download-btn:hover{
+    color: #333333;
+    background-color: white;
+}
+
+
 /* HEADER */
 header{
     width: 100%;
@@ -52,7 +97,7 @@ header{
 
 /* MAIN */
 main > *{
-    padding: 30px 0;
+    padding: 50px 0;
 }
 
 /* JUMBOTRON */
