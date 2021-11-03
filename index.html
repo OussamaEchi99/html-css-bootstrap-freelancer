@@ -19,21 +19,25 @@
 
             <div class="row h100 align-items-center">
 
-                <div class="col">
+                <div class="col-9 col-md-6">
 
                     <h3>START BOOTSTRAP</h3>
 
                 </div>
 
-                <div class="col">
+                <div class="col-3 col-md-6">
 
-                    <ul class="header_menu">
+                    <ul class="header_menu d-none d-md-block">
 
                         <li><a href="#">PORTFOLIO</a></li>
                         <li><a href="#">ABOUT</a></li>
                         <li><a href="#">CONTACT</a></li>
 
                     </ul>
+
+                    <div class="burger d-md-none">
+                        <i class="fas fa-bars"></i>
+                    </div>
 
                 </div>
 
@@ -44,8 +48,10 @@
     </header>
     <!-- End Header -->
 
+    <!-- Main -->
     <main>
 
+        <!-- Jumbotron -->
         <div class="jumbotron lime_green white">
 
             <div class="container">
@@ -77,7 +83,9 @@
             </div>
 
         </div>
+        <!-- End Jumbotron -->
 
+        <!-- Portfolio -->
         <section class="black">
 
             <div class="container text-center">
@@ -160,9 +168,10 @@
 
             </div>
 
-
         </section>
+        <!-- End Portfolio -->
 
+        <!-- About -->
         <section class="lime_green white">
 
             <div class="ms_container text-center">
@@ -204,7 +213,9 @@
             </div>
 
         </section>
+        <!-- End About -->
 
+        <!-- Contact Me -->
         <section>
 
             <div class="ms_container">
@@ -227,44 +238,51 @@
 
                 <div class="fill-in-text">
 
-                    <div class="box">
+                    <form>
 
-                        <span>Name</span>
+                        <div class="mb-3">
 
-                    </div>
+                            <label for="customer-name" class="form-label sr-only">Name</label>
+                            <input type="text" class="form-control" id="costumer-name" placeholder="Name">
+                        
+                        </div>
 
-                    <div class="box">
+                        <div class="mb-3">
 
-                        <span>Email Adress</span>
+                            <label for="customer-email" class="form-label sr-only">Email Adress</label>
+                            <input type="email" class="form-control" id="costumer-email" placeholder="Email Adress">
+                        
+                        </div>
 
-                    </div>
+                        <div class="mb-3">
 
-                    <div class="box">
+                            <label for="customer-phone" class="form-label sr-only">Phone Number</label>
+                            <input type="text" class="form-control" id="costumer-phone" placeholder="Phone Number">
+                        
+                        </div>
 
-                        <span>Phone Number</span>
+                        <div class="mb-3">
 
-                    </div>
+                            <label for="customer-message" class="form-label sr-only">Message</label>
+                            <textarea class="form-control" id="customer-message" cols="30" rows="10" placeholder="Message"></textarea> 
 
-                    <div class="big_box">
-
-                        <span>Message</span>
-
-                    </div>
-
-                    <div>
+                        </div>
 
                         <input class="btn white backgrond_green" type="submit" value="Send">
 
-                    </div>
+                    </form>
 
                 </div>
 
             </div>
 
         </section>
+        <!-- End Contact Me -->
 
     </main>
+    <!-- End Main -->
 
+    <!-- Footer -->
     <footer class="white">
 
         <div class="location_links_freelance">
@@ -285,7 +303,33 @@
 
                         <h6>AROUND THE WEB</h6>
 
-                        <span>icons</span>
+                        <div class="links d-flex justify-content-center">
+
+                            <div class="links_btn">
+
+                                <a id="facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+    
+                            </div>
+
+                            <div class="links_btn">
+
+                                <a href="#"><i class="fab fa-google-plus-g"></i></i></a>
+
+                            </div>
+                            
+                            <div class="links_btn">
+
+                                <a id="twitter" href="#"><i class="fab fa-twitter"></i></a>
+
+                            </div>
+                            
+                            <div class="links_btn">
+
+                                <a id="linkedin" href="#"><i class="fab fa-linkedin-in"></i></i></a>
+
+                            </div>
+
+                        </div>
 
                     </div>
 
@@ -303,6 +347,7 @@
 
         </div>
 
+        <!-- Copyright -->
         <div class="copyright">
 
             <div class="container">
@@ -318,6 +363,7 @@
         </div>
 
     </footer>
+    <!-- End Footer -->
 
 </body>
 </html>
